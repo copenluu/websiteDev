@@ -41,6 +41,7 @@
 	display: block;
 	border-radius: 10px;
 	opacity: 0.9;
+	z-index: -1;
 }
 .boxImage:hover{
 	opacity:0.5;	
@@ -51,5 +52,26 @@
 	width: 400px;
 	margin-top: -250px;
 	margin-right: -600px;
-	margin-left: 200px;
+	text-align: center;
+	line-height: 15;
+	z-index: -2;
+
+}
+
+.overlayText a{
+	text-decoration: none	;
+}
+
+.testImage{
+	position: relative;
+	text-align: center;
+	height: 250px;
+	width: 400px;
+	color:white;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+
+.testImage:hover{
+	opacity:0.5;
 }
