@@ -1,0 +1,57 @@
+.topLeftGraph{
+	font-size: 14px ;
+	font-family: Arial;
+	display: block;
+}
+
+.homeHeader{
+	font-size: 20px;
+	font-family: Lucida Sans;
+}
+
+.homeHeader a{
+	text-decoration: none;
+}
+
+.smhImage{
+	height: 75px;
+	display: block;
+	margin-right: inherit;
+	margin-left: auto;
+	border-radius: 10px;
+}
+
+.headerDiv{
+	Width:100%;
+}
+
+.imageTable{
+	height:100px;
+}
+
+.divImageTopLeft{
+	height: auto;
+}
+
+.boxImage{
+	height: 250px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+.boxImage:hover{
+	opacity:0.5;	
+}
+
+.overlayText{
+	height: 250px;
+	width: 400px;
+	margin-top: -250px;
+	margin-right: -600px;
+	#margin-left
+}
+	
+}
