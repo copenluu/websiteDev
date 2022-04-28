@@ -11,6 +11,7 @@
 
 .homeHeader a{
 	text-decoration: none;
+	color:black;
 }
 
 .smhImage{
@@ -36,40 +37,75 @@
 .boxImage{
 	height: 250px;
 	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
 	display: block;
-	margin-left:auto;
-	margin-right:auto;
 	border-radius: 10px;
-	opacity: 0.9;
-	position: relative;
+	opacity: 1;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
 }
+
 .boxImage:hover{
 	opacity:0.5;	
 }
 
 .overlayText{
-	height: 250px;
-	width: 400px;
-	margin-top: -250px;
-	margin-left:0px;
-	text-align: center;
-	line-height: 15;
-	z-index: 1;
-	position:inherit
+	color: white;
+	font-size: 16px;
+	left: 50%;
+}
+
+.fadeText{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .fadeText {
+  opacity: 1;
 }
 
 
-
-.testImage{
-	height: 250px;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	color:white;
-	border-radius: 10px;
-	opacity: 0.9;
+.containerSlideshow{
+	max-width: 100%;
+	position: relative;
+	margin: auto;
 }
 
-.testImage:hover{
-	opacity:0.5;
+.slideshowImg{
+	display: none;
+	right: 50%;
+	left: 50%;
 }
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+
+.savedAnimalsP{
+	font-size: 30px;
+	margin: auto;
+}
+
+
