@@ -1,7 +1,9 @@
 .topLeftGraph {
-  font-size: 14px;
+  font-size: 16px;
   font-family: Arial;
   display: block;
+  text-align: left;
+  margin-top: auto;
 }
 
 .bgColourPreset {
@@ -18,13 +20,15 @@
   text-decoration: none;
   color: purple;
 }
+.homeHeader a:hover {
+  text-decoration: underline;
+}
 
 .smhImage {
   height: 75px;
   display: block;
   margin-right: inherit;
   margin-left: auto;
-  border-radius: 10px;
 }
 
 .headerDiv {
@@ -141,4 +145,68 @@
   margin-right: inherit;
   margin-left: auto;
   border-radius: 50px;
+}
+
+.infoP2 {
+  text-align: right;
+  font-size: 20px;
+  margin: auto;
+  font-family: Arial;
+  border-radius: 10px;
+}
+.infoP2 a {
+  text-decoration: none;
+}
+.infoP2 a:hover {
+  text-decoration: underline;
+}
+
+.smhImage2 {
+  height: 150px;
+  display: block;
+  margin-right: inherit;
+  margin-left: auto;
+}
+
+.toInfoPage {
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.toInfoPage span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.toInfoPage span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.toInfoPage:hover span {
+  padding-right: 25px;
+}
+
+.toInfoPage:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.toInfoPage a {
+  color: white;
 }
