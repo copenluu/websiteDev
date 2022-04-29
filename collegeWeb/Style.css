@@ -130,3 +130,15 @@
   margin-left: -5px;
   margin-right: -5px;
 }
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.smhImage {
+  height: 200px;
+  display: block;
+  margin-right: inherit;
+  margin-left: auto;
+  border-radius: 50px;
+}
