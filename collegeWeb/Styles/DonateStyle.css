@@ -1,0 +1,14 @@
+.donateHere {
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+.donateHere a {
+  text-decoration: none;
+  color: black;
+}
+.donateHere a:hover {
+  text-decoration: underline;
+  color: purple;
+}

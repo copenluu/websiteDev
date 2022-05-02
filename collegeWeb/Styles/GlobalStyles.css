@@ -104,11 +104,16 @@
   padding-right: 25px;
 }
 
-.buttonLink2 span:after {
+.buttonLink2:hover span:after {
   opacity: 1;
   right: 0;
 }
 
 .buttonLink2 a {
   color: white;
+}
+
+.alignC {
+  margin-left: auto;
+  margin-right: auto;
 }
