@@ -58,3 +58,24 @@
 .boxImage:hover {
   opacity: 0.5;
 }
+
+.buttonContact {
+  background-color: #ff0000;
+  text-align: center;
+  height: 50px;
+  width: 25%;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+}
+.buttonContact:hover {
+  background-color: #eb0000;
+}
+.buttonContact:active {
+  transform: scale(0.98);
+}
