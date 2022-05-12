@@ -1,0 +1,27 @@
+td {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+input {
+  width: 10%;
+}
+
+#SubmitButtonContact {
+  background-color: #000000;
+  text-align: center;
+  height: 50px;
+  width: 15%;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+}
+#SubmitButtonContact:active {
+  transform: scale(0.98);
+}

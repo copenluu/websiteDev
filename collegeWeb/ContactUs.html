@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact us</title>
+    <link href="Styles/GlobalStyles.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/ContactUsStyles.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/alertContact.js"></script>
+  </head>
+
+  <body bgcolor="#d1c69b">
+    <table class="bgColourPreset" bgcolor="#e9e7e7">
+      <tbody>
+        <tr>
+          <th class="homeHeader" scope="col">
+            <a href="Home.html"
+              ><div class="headerDiv">Strays Meet Holland Awareness</div>
+            </a>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br /><br />
+    <div>
+      <form
+        id="ContactForm"
+        name="ContactForm"
+        method="post"
+        action="mailto:2102775@rutc.ac.uk"
+      >
+        <table width="100%" border="0" style="margin: auto">
+          <tbody>
+            <tr>
+              <td width="15%">Name:</td>
+              <td>
+                <input
+                  style="width: 10%"
+                  type="text"
+                  name="Name"
+                  id="nameInput"
+                  placeholder="Your Name"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td width="15%">Email:</td>
+              <td>
+                <input
+                  type="email"
+                  name="Email"
+                  id="emailInput"
+                  placeholder="Your Email"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td width="15%">Subject:</td>
+              <td>
+                <input
+                  type="text"
+                  name="Subject"
+                  id="subjectInput"
+                  placeholder="Subject"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                Content:<br />
+
+                <textarea
+                  name="ContentArea"
+                  id="contentInput"
+                  cols="150"
+                  rows="10"
+                  placeholder="Content"
+                  required
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center">
+                <br />
+                <input
+                  type="submit"
+                  name="Submit"
+                  onclick="requiredForm()"
+                  id="SubmitButtonContact"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

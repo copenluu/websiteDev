@@ -1,0 +1,24 @@
+.infoP {
+  font-size: 20px;
+  margin: auto;
+  text-align: left;
+  font-family: Arial;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.infoP2 {
+  text-align: right;
+  font-size: 20px;
+  margin: auto;
+  font-family: Arial;
+  border-radius: 10px;
+}
+.infoP2 a {
+  text-decoration: none;
+}
+.infoP2 a:hover {
+  text-decoration: underline;
+}

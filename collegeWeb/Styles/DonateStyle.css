@@ -1,0 +1,27 @@
+.donateHere {
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+.donateHere a {
+  text-decoration: none;
+  color: black;
+}
+.donateHere a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+.t1Text {
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.t2Text {
+  font-size: 18px;
+  font-family: Arial;
+  text-align: left;
+  padding-left: 20%;
+}

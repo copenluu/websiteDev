@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Home</title>
-    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/GlobalStyles.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/HomeStyle.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body bgcolor="#d1c69b">
@@ -21,15 +22,15 @@
 
     <table width="100%" border="0">
       <tr>
-        <td>
-          <p class="topLeftGraph" align="left">
+        <td width="50%">
+          <p class="topLeftP">
             This site is not owned or ran by <br />Stichting Strays Meet Holland
             <br />and is purely to raise awareness <br />for it in another way.
           </p>
         </td>
-        <td>
+        <td width="50%">
           <img
-            class="smhImage"
+            class="smhLogo"
             src="Images/smhlogo.png"
             alt="Strays Meet Holland Logo"
           />
@@ -71,7 +72,7 @@
         </tr>
         <tr>
           <td>
-            <a href="#">
+            <a href="Certification.html">
               <div class="container">
                 <img src="Images/kenzo.png" class="boxImage" />
                 <div class="fadeText">
@@ -85,7 +86,7 @@
             </a>
           </td>
           <td>
-            <a href="#">
+            <a href="Donate.html">
               <div class="container">
                 <img src="Images/donateImg.png" class="boxImage" />
                 <div class="fadeText">
@@ -101,5 +102,13 @@
         </tr>
       </tbody>
     </table>
+    <div width="100%" style="text-align: center">
+      <button
+        class="buttonContact"
+        onclick="window.location.href = './ContactUs.html'"
+      >
+        Contact us
+      </button>
+    </div>
   </body>
 </html>
