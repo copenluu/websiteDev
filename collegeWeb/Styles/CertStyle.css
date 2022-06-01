@@ -8,10 +8,11 @@
 .anbiText {
   font-size: 18px;
   font-family: Arial;
-  text-align: left;
+  text-align: center;
 }
 .anbiTextItalics {
   font-size: 18px;
   font-family: Arial;
   font-style: italic;
+  text-align: center;
 }
